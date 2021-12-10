@@ -101,7 +101,7 @@ monthly_charge_entry = Entry(monthly_charge_app, textvariable=monthly_charge)
 monthly_charge_entry.grid(row=5, column=1, sticky="w")
 
 # создание кнопки для запуска функции расчёта ежемесячного платежа
-calculation_button = Button(monthly_charge_app, text="Расчитать", command=monthly_charge_calculation)
+calculation_button = Button(monthly_charge_app, text="Рассчитать", command=monthly_charge_calculation)
 calculation_button.grid(row=7, column=0)
 
 # создание кнопки для очистки полей
